@@ -17,7 +17,7 @@ body {
 main {
  
   
-  margin:20vh 20vw 10vh 20vw ;
+  margin:20vh 20vw ;
   background-color: white;
   box-shadow:0px 0px 30px lightgray;
   border-radius:10px ;
@@ -105,4 +105,31 @@ ul{
 .attribution , a{
   text-align:center;
   text-decoration:none;
+}
+/* @edia  */
+@media (max-width:1000px){
+  main {
+  margin:10vh 10vw ;
+}
+}
+@media (max-width:760px){
+  main {
+  margin:5vh 5vw ;
+}
+}
+@media (max-width:600px){
+  main {
+  margin:2vh 3vw ;
+}
+  #twoDivs{
+  display:block;
+  
+}
+  #Sub{
+  width:100%;
+}
+  #whyUs{
+  width:100%;
+
+}
 }

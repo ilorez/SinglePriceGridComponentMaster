@@ -117,7 +117,7 @@ ul{
   margin:5vh 5vw ;
 }
 }
-@media (max-width:600px){
+@media (max-width:576px){
   main {
   margin:2vh 3vw ;
 }

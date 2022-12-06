@@ -1,135 +1,161 @@
-html{
+html {
   box-sizing: border-box;
 }
-*, *:before, *:after{
+
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
+/*** Thanks 'Hassla Issah' for this notes, @Hassiai - from fontendmentor.io***/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.same-padding{
+  padding:5%;
+}
+/***----------------------***/
 
 body {
   font-family: "Karla", sans-serif;
   font-size: 16px;
   font-weight: 400;
   background-color: hsl(204, 43%, 93%);
-  
+
 }
 
 /* main */
 main {
- 
-  
-  margin:20vh 20vw ;
+  margin-top: 30px;
+  width: 70%;
   background-color: white;
-  box-shadow:0px 0px 30px lightgray;
-  border-radius:10px ;
-  overflow:hidden;
-  
+  box-shadow: 0px 0px 30px lightgray;
+  border-radius: 10px;
+  overflow: hidden;
+
 }
-.titles{
+
+.titles {
   font-weight: 700;
 }
 
 /* join div */
-#join{
-  background-color:none;
-  color:gray;
-  padding:5%;
+#join {
+  background-color: none;
+  color: gray;
 }
-#join > h3{
-  color:#02CBE6;
+
+#join>h3 {
+  color: #2cb5b2;
 }
-#join > h4{
-  color:#99E02D;
+
+#join>h4 {
+  color: #c0df34;
 }
 
 
 /* div fo two second divs */
-#twoDivs{
-  display:flex;
-  color:white;
-  
-  
+#twoDivs {
+  display: flex;
+  color: white;
 }
 
 /* sub div */
-#Sub{
-  background-color:#02CBE6;
-  width:50%;
-  padding:5%;
-  
-}
-#big{
-  font-size: 40px;
-  color:white;
-}
-.subPrix{
-  color:hsl(204, 43%, 93%);
+.sub {
+  background-color: #2cb5b2;
+  width: 50%;
+
 }
 
-#signUpButton{
-  color:white;
-  width:100%;
-  font-weight:bold ;
-  border:white 1px solid;
-  background-color:#99E02D;
-  border-radius:10px;
-  padding:10px;
+#big {
+  font-size: 40px;
+  color: white;
 }
-#signUpButton:hover{
+
+.subPrix {
+  color: hsl(204, 43%, 93%);
+}
+
+#signUpButton {
+  color: white;
+  width: 100%;
+  font-weight: bold;
+  border: white 1px solid;
+  background-color: #c0df34;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#signUpButton:hover {
   cursor: pointer;
-  scale:1.1;
-  background-color:#97F032;
+  scale: 1.1;
+  background-color: #9dbb16;
   transition: 500ms;
 }
-#relativeTop{
-  position: relative ;
-  top:-4px;
-  margin-left:5px;
+
+#relativeTop {
+  position: relative;
+  top: -4px;
+  margin-left: 5px;
 }
+
 /* why us div */
-#whyUs{
-  
-  width:50%;
-  padding:5%;
+#whyUs {
+
+  width: 50%;
   opacity: 0.7;
-  background-color:#0ABEFF;
-  
+  background-color: #4bbebc;
+
 }
-ul{
-  list-style:none;
-  padding:0;
-  line-height:23px;
-  color:hsl(204, 43%, 93%);
+
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 23px;
+  color: #fff;
 }
 
 /* footer */
-.attribution , a{
-  text-align:center;
-  text-decoration:none;
+.attribution,
+a {
+  text-align: center;
+  text-decoration: none;
 }
-/* @edia  */
-@media (max-width:1000px){
-  main {
-  margin:10vh 10vw ;
-}
-}
-@media (max-width:760px){
-  main {
-  margin:5vh 5vw ;
-}
-}
-@media (max-width:576px){
-  main {
-  margin:2vh 3vw ;
-}
-  #twoDivs{
-  display:block;
-  
-}
-  #Sub{
-  width:100%;
-}
-  #whyUs{
-  width:100%;
 
+/* @media - Thanks agian to @Hassiai  */
+@media (max-width:1000px) {
+  main {
+    width: 80%;
+  }
 }
+
+@media (max-width:760px) {
+  main {
+    width: 90%;
+
+  }
+}
+
+@media (max-width:576px) {
+  main {
+    width: 90%;
+  }
+
+  #twoDivs {
+    display: block;
+
+  }
+
+  .sub {
+    width: 100%;
+  }
+
+  #whyUs {
+    width: 100%;
+
+  }
 }

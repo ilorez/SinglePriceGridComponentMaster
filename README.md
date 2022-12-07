@@ -2,7 +2,7 @@
 ## Info
 - This Website coded by [Z-Najdaoui](https://github.com/Z-Najdaoui)
 - 2022/11/17
-- last Edit 2022/12/06
+- last Edit 2022/12/07
     - Thanks to [Hassia Issah](https://www.frontendmentor.io/profile/Hassiai)
 - chalenge from [Frontend Mentor](https://www.frontendmentor.io?ref=challenge)
 ## Summary

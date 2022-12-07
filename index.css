@@ -36,6 +36,7 @@ main {
   box-shadow: 0px 0px 30px lightgray;
   border-radius: 10px;
   overflow: hidden;
+  max-width: 63.5rem;
 
 }
 
@@ -107,8 +108,7 @@ main {
 #whyUs {
 
   width: 50%;
-  opacity: 0.7;
-  background-color: #4bbebc;
+  background-color: #4abebd;
 
 }
 
